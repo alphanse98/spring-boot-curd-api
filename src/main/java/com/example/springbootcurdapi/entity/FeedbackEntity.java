@@ -17,12 +17,12 @@ import java.util.IdentityHashMap;
 public class FeedbackEntity {
 
     @Id
- @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long Id;
     @Column(nullable = false)
-private  String name;
+    private  String name;
     @Column(nullable=false)
-private  String BookName;
+    private  String BookName;
     @Column(nullable = false)
-private  String feedback;
+    private  String feedback;
 }

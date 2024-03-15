@@ -16,11 +16,11 @@ public class CatalogEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private  Long Id;
-//    @Column(nullable = false)
+    @Column(nullable = false)
     private String productName;
-//    @Column(nullable = false)
+    @Column(nullable = false)
     private double price;
-//    @Column(nullable = false)
+    @Column(nullable = false)
     private String catalog;
 
 
